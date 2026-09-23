@@ -1,4 +1,56 @@
-# 🌐 Internet Service Provider
+# 🌐 Ofruesi i Shërbimit të Internetit 🇦🇱
+
+> Sistem menaxhimi desktop Java Swing për një ofrues shërbimi interneti — regjistrime klientësh dhe punonjësish, krijim planesh interneti, ndjekje ankesash dhe panel administratori, të gjitha të mbështetura nga MySQL.
+
+![Pamje nga demo](screenshot.png)
+
+**🔴 Demo live:** https://erionnezha.github.io/Internet-Service-Provider/
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-007396?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+## ✨ Modulet
+
+| File | Dritarja | Përshkrimi |
+|------|--------|-------------|
+| `Home.java` | Faqja Kryesore | Portali i hyrjes dhe paneli kryesor me orë dhe datë live — pika e hyrjes së aplikacionit |
+| `Admin.java` | Paneli i Administratorit | Hapësira e punës së administratorit me kontrolle të privilegjuara të sistemit |
+| `Customer.java` | Klienti | Regjistrimi i klientëve dhe menaxhimi i plotë i regjistrimeve |
+| `Employee.java` | Punonjësi | Menaxhimi i regjistrimeve të punonjësve të ISP-së |
+| `CreatePlan.java` | Krijo Plan | Përcakto planet e internetit — emrat, shpejtësitë dhe çmimet |
+| `Complaint.java` | Zyra e Ankesave | Paraqit dhe ndiq ankesat e klientëve |
+| `javaconnect.java` | — | Ndihmësi i lidhjes MySQL që lidh çdo ekran me databazën `isp` |
+
+## 🛠️ Teknologjitë
+
+- **Java** (Swing / AWT) — UI desktop
+- **JDBC** — lidhja me databazën
+- **MySQL** — databaza `isp`
+
+## ▶️ Si ekzekutohet
+
+1. Krijo një databazë MySQL me emrin `isp` dhe përditëso kredencialet në `javaconnect.java`.
+2. Kompilo të gjitha burimet:
+   ```bash
+   javac *.java
+   ```
+3. Nise aplikacionin:
+   ```bash
+   java Home
+   ```
+
+## 🖥️ Demo
+
+Shfleto kodin burimor të plotë të çdo moduli me theksim sintakse në demo-n live më sipër — pa pasur nevojë për IDE.
+
+## 📄 Licenca
+
+Copyright © 2026 Erion Nezha. Të gjitha të drejtat e rezervuara. Shih [LICENSE](LICENSE).
+
+---
+
+# 🌐 Internet Service Provider 🇬🇧
 
 > A Java Swing desktop management system for an Internet Service Provider — customer & employee records, internet plan creation, complaint tracking and an admin panel, all backed by MySQL.
 
