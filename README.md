@@ -1,5 +1,7 @@
 # 🌐 Ofruesi i Shërbimit të Internetit 🇦🇱
 
+Created by **Erion Nezha**
+
 > Sistem menaxhimi desktop Java Swing për një ofrues shërbimi interneti — regjistrime klientësh dhe punonjësish, krijim planesh interneti, ndjekje ankesash dhe panel administratori, të gjitha të mbështetura nga MySQL.
 
 ![Pamje nga demo](screenshot.png)
@@ -51,6 +53,8 @@ Copyright © 2026 Erion Nezha. Të gjitha të drejtat e rezervuara. Shih [LICENS
 ---
 
 # 🌐 Internet Service Provider 🇬🇧
+
+Created by **Erion Nezha**
 
 > A Java Swing desktop management system for an Internet Service Provider — customer & employee records, internet plan creation, complaint tracking and an admin panel, all backed by MySQL.
 
